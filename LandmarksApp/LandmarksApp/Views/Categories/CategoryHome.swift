@@ -25,7 +25,8 @@ struct CategoryHome: View {
                 }
             }
             .sheet(isPresented: $showingProfile, content: {
-                
+                ProfileHost()
+                    .environment(modelData)
             })
         } detail: {
             Text("Select a landmark")
