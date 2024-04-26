@@ -40,7 +40,6 @@ struct LandmarkDetail: View {
         }
         .navigationTitle(landmark.name)
         .navigationBarTitleDisplayMode(.automatic)
-        .ignoresSafeArea()
     }
 }
 
