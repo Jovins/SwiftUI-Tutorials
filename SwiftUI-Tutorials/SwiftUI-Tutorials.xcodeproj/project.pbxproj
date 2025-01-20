@@ -20,6 +20,8 @@
 		6CA6D5952D3E558300B92C02 /* ToastRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA6D5942D3E558300B92C02 /* ToastRootView.swift */; };
 		6CA6D5972D3E560200B92C02 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA6D5962D3E560200B92C02 /* Toast.swift */; };
 		6CA6D5992D3E563000B92C02 /* ToastHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA6D5982D3E563000B92C02 /* ToastHome.swift */; };
+		6CA6D59C2D3E582200B92C02 /* DateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA6D59B2D3E582200B92C02 /* DateTextField.swift */; };
+		6CA6D59E2D3E584700B92C02 /* DateTextFieldHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA6D59D2D3E584700B92C02 /* DateTextFieldHome.swift */; };
 		6CAC5C412D389E9B0097FB4D /* SwiftUI_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAC5C402D389E9B0097FB4D /* SwiftUI_TutorialsApp.swift */; };
 		6CAC5C432D389E9B0097FB4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAC5C422D389E9B0097FB4D /* ContentView.swift */; };
 		6CAC5C452D389E9F0097FB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CAC5C442D389E9F0097FB4D /* Assets.xcassets */; };
@@ -63,6 +65,8 @@
 		6CA6D5942D3E558300B92C02 /* ToastRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastRootView.swift; sourceTree = "<group>"; };
 		6CA6D5962D3E560200B92C02 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		6CA6D5982D3E563000B92C02 /* ToastHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastHome.swift; sourceTree = "<group>"; };
+		6CA6D59B2D3E582200B92C02 /* DateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTextField.swift; sourceTree = "<group>"; };
+		6CA6D59D2D3E584700B92C02 /* DateTextFieldHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTextFieldHome.swift; sourceTree = "<group>"; };
 		6CAC5C3D2D389E9B0097FB4D /* SwiftUI-Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CAC5C402D389E9B0097FB4D /* SwiftUI_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialsApp.swift; sourceTree = "<group>"; };
 		6CAC5C422D389E9B0097FB4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -200,6 +204,15 @@
 			path = "Custom Toast";
 			sourceTree = "<group>";
 		};
+		6CA6D59A2D3E572700B92C02 /* Date Picker */ = {
+			isa = PBXGroup;
+			children = (
+				6CA6D59B2D3E582200B92C02 /* DateTextField.swift */,
+				6CA6D59D2D3E584700B92C02 /* DateTextFieldHome.swift */,
+			);
+			path = "Date Picker";
+			sourceTree = "<group>";
+		};
 		6CAC5C342D389E9B0097FB4D = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +236,7 @@
 		6CAC5C3F2D389E9B0097FB4D /* SwiftUI-Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				6CA6D59A2D3E572700B92C02 /* Date Picker */,
 				6CA6D5932D3E555A00B92C02 /* Custom Toast */,
 				6CA6D58C2D3E531700B92C02 /* CustomFileExtension */,
 				6CA6D5862D3E50FA00B92C02 /* Custom Indicator */,
@@ -414,6 +428,7 @@
 				6CA6D58F2D3E533700B92C02 /* Transaction.swift in Sources */,
 				6CA6D5952D3E558300B92C02 /* ToastRootView.swift in Sources */,
 				6CA6D5972D3E560200B92C02 /* Toast.swift in Sources */,
+				6CA6D59C2D3E582200B92C02 /* DateTextField.swift in Sources */,
 				6CA6D5832D3E4EF000B92C02 /* CoverFlowView.swift in Sources */,
 				6C8F2EA02D390F800012850C /* ExpandTabbarHome.swift in Sources */,
 				6CAC5C6D2D389F7F0097FB4D /* SpotifyAlbum.swift in Sources */,
@@ -424,6 +439,7 @@
 				6CA6D58B2D3E515900B92C02 /* PageIndicatorHome.swift in Sources */,
 				6CAC5C722D38BCA80097FB4D /* ParallaxScrollViewHome.swift in Sources */,
 				6C8F2EA22D3910330012850C /* ExpandTabbar.swift in Sources */,
+				6CA6D59E2D3E584700B92C02 /* DateTextFieldHome.swift in Sources */,
 				6CA6D5802D3E4EC400B92C02 /* CoverFlowItem.swift in Sources */,
 				6CAC5C432D389E9B0097FB4D /* ContentView.swift in Sources */,
 				6CA6D5852D3E4F2600B92C02 /* CoverFlowViewHome.swift in Sources */,
