@@ -4,7 +4,7 @@ import SwiftUI
 class PhotoCoordinator {
 
     // MARK: - Properties
-    var items: [PhotoItem] = sampleItems.compactMap({
+    var items: [PhotoItem] = photoItems.compactMap({
         PhotoItem(title: $0.title, image: $0.image, previewImage: $0.image)
     })
     /// Animation Properties

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PhotoRootView: View {
+struct PhotoApp: View {
     
     var coordinator: PhotoCoordinator = .init()
     var body: some View {
@@ -44,5 +44,5 @@ struct PhotoRootView: View {
 }
 
 #Preview {
-    PhotoRootView(coordinator: PhotoCoordinator())
+    PhotoApp(coordinator: PhotoCoordinator())
 }

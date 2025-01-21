@@ -8,7 +8,7 @@ struct PhotoItem: Identifiable, Hashable {
     var appeared: Bool = false
 }
 
-var sampleItems: [PhotoItem] = [
+var photoItems: [PhotoItem] = [
     .init(title: "Fanny Hagan",                 image: UIImage(named: "Photo_Pic1")),
     .init(title: "Han-Chieh Lee",               image: UIImage(named: "Photo_Pic2")),
     .init(title: "xiaofu666",                   image: UIImage(named: "Photo_Pic3")),
